@@ -1,11 +1,11 @@
 # Secure Website Code Implementation
 
-## 📌 Overview
+##  Overview
 This project demonstrates secure web development practices by building a login system using HTML, JavaScript, PHP, and MySQL. The application focuses on protecting user data and preventing common web vulnerabilities such as SQL injection and cross-site scripting (XSS).
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - HTML (Frontend structure)
 - JavaScript (Client-side validation)
 - PHP (Server-side processing)
@@ -14,7 +14,7 @@ This project demonstrates secure web development practices by building a login s
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 secure_app/
 │── index.html # Login form (Frontend)
 │── login.php # Backend processing
@@ -22,7 +22,7 @@ secure_app/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Install XAMPP
 Download and install XAMPP, then start:
