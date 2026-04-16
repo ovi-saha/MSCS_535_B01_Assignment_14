@@ -57,10 +57,10 @@ CREATE TABLE users (
 INSERT INTO users (username, password)
 VALUES ('admin', SHA2('admin123', 256));
 ```
-4. Configure Database Connection
+### 4. Configure Database Connection
 
 Update login.php: $conn = new mysqli("localhost", "root", "", "secure_app", 3307);
-5. Run the Application
+### 5. Run the Application
 
 Open browser:
 
