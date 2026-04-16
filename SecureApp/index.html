@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Login</title>
+    <script>
+        function validateForm() {
+            let username = document.forms["loginForm"]["username"].value;
+            let password = document.forms["loginForm"]["password"].value;
+
+            if (username === "" || password === "") {
+                alert("All fields are required!");
+                return false;
+            }
+
+            if (username.length < 3) {
+                alert("Username must be at least 3 characters.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Login</h2>
+    <form name="loginForm" action="login.php" method="POST" onsubmit="return validateForm()">
+        Username: <input type="text" name="username"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
